@@ -1,17 +1,3 @@
 #instance type
-#instance_type = "t3.micro"
-#region = "eu-north-1"
-variable "region" {
-  description = "AWS region"
-  default     = "eu-north-1"
-}
-
-variable "instance_type" {
-  description = "Type of EC2 instance to provision"
-  default     = "t3.micro"
-}
-
-variable "instance_name" {
-  description = "EC2 instance name"
-  default     = "Provisioned by Terraform"
-}
+instance_type = "t3.micro"
+region = eu-north-1
